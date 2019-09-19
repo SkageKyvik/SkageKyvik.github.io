@@ -1,0 +1,31 @@
+#container{ 
+    background-color: deeppink;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+
+#Header{
+    color: chartreuse;
+    text-align: center
+
+}
+
+#Bilde{
+    float: right
+}
+
+#Meny{
+    background-color: black;
+    color: darkred;
+    float: left;
+
+}
+
+
+
+
+
+ul{
+    list-style-type: none
+}
