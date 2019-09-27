@@ -1,0 +1,110 @@
+
+#cpu{
+    background-color: burlywood;
+    top: 100px;
+    left: 250px;
+    width: 500px;
+    height: 500PX;
+    border-radius: 5%;
+
+}
+
+#controler{
+    left: calc( 50% - 100px );
+    height: 100px;
+    width: 200px;
+    top: 20px
+}
+
+
+#prosesor{
+    bottom: 10px;
+    height: 350px;
+    width: 350px;
+    left: calc( 50% - 175px );
+     border-radius: 5%;
+
+}
+
+
+#registrerer{
+    top: 40px;
+    height: 100px;
+    left: calc( 50% - 100px)
+
+}
+
+
+#cl{
+    top: 180px;
+    left: calc( 50% - 100px);
+    height: 125px
+
+}
+
+
+#input{
+    left: -220px;
+    bottom: 20px
+
+
+}
+
+
+#memory{
+ bottom: -120px;
+left: calc( 50% - 100px)
+
+}
+
+
+#output{
+right: -220px;
+bottom: 20px
+}
+
+
+
+.firkant{
+    position: absolute;
+    border: solid black;
+    width: 100px;
+    height:100px;
+    background-color: rgb(241, 223, 123);
+    text-align: center;
+
+
+}
+
+.deler{
+    position: absolute;
+    border: solid black;
+    width: 200px;
+    height:100px;
+    background-color: rgb(86, 205, 226)
+}
+
+.pil{
+    position: absolute; 
+
+}
+.pil:nth-child(1){
+    border-top: solid 2px red;
+    border-left: 2px solid red;
+    left: 150px;
+    top: 175px;
+    width: 250px;
+    height: 300px;
+
+}
+
+.pil:nth-child(2){
+    border-top: solid 2px #000000;
+    border-right: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    left: 609px;
+    top: 500px;
+    width: 100px;
+    height: 150px;
+
+}
