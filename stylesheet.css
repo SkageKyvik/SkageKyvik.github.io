@@ -2,12 +2,13 @@ body {
 	font-family: "Verdana";
 	color: white;
 /*	background-color: #3d3d3d; */
-	background-color: #000000;
+	background-color:darkblue ;
 }
 
 h1 {
 	font-family: "Verdana";
-	color: rgb(255, 255, 255);
+	color:grey ;
+text-align: center;
 }
 a {
 	text-decoration: none;
@@ -18,4 +19,24 @@ a {
 	font-size:40px;
 	font-weight:700;
 }
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 10px;
+	padding: 10px;
+}
+.grid>div {
+	/*border: 3px solid rgb(27, 27, 104);*/
+	border-radius: 10%;
+	padding: 10px;
+	background-color: rgb(71, 66, 160);
+}
+.grid>div>a {
+	padding: 10px;
+}
+a {
+	color: aliceblue;
+}
+
 

@@ -1,0 +1,48 @@
+body {
+    background-color: white;
+    color: black;
+    
+}
+h1, h2 {
+    
+    text-align: center;
+}
+
+h2, h3 {
+    color: black
+
+}
+
+h2, h4 {
+    font-style: italic;
+}
+
+h4{
+   color: black
+}
+div {
+    color: black;
+    text-align: start;
+    float: none;
+    font-size: 1.2em;
+}
+li {
+    text-align: start;
+    padding-left: 1em;
+}
+#test {
+    text-align: center;
+}
+
+a {
+    color: rgb(116, 116, 255);
+}
+
+
+a:visited {
+    color: rgb(245, 98, 245);
+}
+
+#tools {
+    margin-bottom: 3em; 
+}

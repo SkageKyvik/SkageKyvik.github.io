@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="cpu.css">
+    <script src="cpu.js"></script>
+  
 </head>
 <body>
+        <div id="skisse">
     <div  class="firkant"id="cpu"> cpu
         <div class="deler" class="firkant" id="controler">control unit </div>
 
         <div class="firkant" id="prosesor">prosesor
 
-            <div class="deler" class="firkant" id="registrerer">registers</div>
+            <div class="deler" class="firkant" id="registrerer" data-more="register"
+            data-info='Prosessorens arbeidsminne.    Typisk 8bit for tidlige cpuer, nå 64bit'>registers</div>
             <div class="deler" class="firkant" id="cl">combinational logic</div>
 
         </div>
@@ -24,7 +28,12 @@
         <div class="deler" class="firkant" id="output">output</div>
     
     </div>
+        </div>
     <div>
+
+            <script>
+                    setup();
+                </script>
 <Div class="pil" id="oh"></Div>
 <Div class="pil" id="ov"></Div>
 <Div class="pil" id="nh"></Div>
