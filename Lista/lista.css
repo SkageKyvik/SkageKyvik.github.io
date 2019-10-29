@@ -1,0 +1,17 @@
+li{
+    list-style-type: lower-greek
+}
+#oversikt{
+    color: pink
+}
+    
+ul{
+    color: aqua;
+}
+ol>span{
+    color: brown
+}
+
+#land{
+    color: blue
+}
