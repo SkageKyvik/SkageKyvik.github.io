@@ -27,10 +27,11 @@ a {
 	padding: 10px;
 }
 .grid>div {
-	/*border: 3px solid rgb(27, 27, 104);*/
+	border: 3px solid ;
 	border-radius: 10%;
 	padding: 10px;
-	background-color: rgb(71, 66, 160);
+	background-color: lightskyblue;
+	border-color: lightseagreen;
 }
 .grid>div>a {
 	padding: 10px;
@@ -41,4 +42,25 @@ a {
 
 hr{
 	
+}
+#meny {
+	left: calc( 50%);
+	position: relative;
+	top: -16px;
+	width: 100%;
+	list-style: none;
+	padding: 10px;
+	background-color: aliceblue;
+	color: lightseagreen;
+}
+
+#meny li {
+	display:block;
+	width:120px;
+	height: 1em;
+	padding: 2px;
+	float:left;
+	margin-left:2px;
+	border:1px solid gray;
+	background-color: lightskyblue;
 }

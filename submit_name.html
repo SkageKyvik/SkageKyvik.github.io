@@ -1,0 +1,60 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible">
+    <title>Submit_name</title>
+    <style>
+        body {
+        }
+        a {
+text-decoration: none;
+        }
+        
+        
+        .topnav a:hover {
+            color: pink;
+        }
+        
+        .topnav a:active {
+            
+        }
+
+        #innhold{
+            border: solid 2px black;  
+            position: absolute;
+            right: auto; 
+            left: auto;
+            margin: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="innhold">
+    <div class="topnav">
+        <a class="active" href="index.html"><--- Back</a>
+    </div>
+
+    <p>vennligst skriv inn navn.</p>
+
+    <form id="frml" action="/action_page.php">
+        Fornavn: <input type="text" name="fnavn"> <br> Etternavn: <input type="text" name="Enavn"> <br><br>
+        <input type="button" onclick="myFunction()" value="submit">
+    </form>
+</div>
+
+    <script>
+        function myFunction() {
+            document.getElementById("frml").submit();
+        }
+    </script>
+
+
+</body>
+
+</html>
